@@ -17,7 +17,7 @@ import java.util.function.Function;
 @Service
 public class JwtService {
 
-    String secret = "5f8dcbfa3b0b4a6d9c6b5a2f8f7cba4d5e6f3a2c5d8e6f9c3b2a7e4f8d5a6b9c";
+    String secret = "";
 
     public String generateToken(String username) {
         Map<String, Object> claims = new HashMap<>();
